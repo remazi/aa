@@ -1,0 +1,53 @@
+{
+
+  "name": "aa",
+
+  "description": "instagram user hunt bot with py",
+
+  "repository": "https://github.com/remazi/aa",
+
+  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+
+  "keywords": ["py", "bot", "instagram", "user hunt", "multi device"],
+
+  "buildpacks": [
+
+    {
+
+      "url": "heroku/py"
+
+    },
+
+    {
+
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+    },
+
+    {
+
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+
+    },
+
+    {
+
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+
+    }
+
+  ],
+
+   "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    }
+
+}
