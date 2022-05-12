@@ -1,6 +1,1 @@
-time
-os
-sys
 requests
-uuid
-pyfiglet
