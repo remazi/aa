@@ -2,7 +2,7 @@
 
   "name": "aa",
 
-  "description": "instagram user hunt bot with py",
+  "description": "instagram user hunt bot with python",
 
   "repository": "https://github.com/remazi/aa",
 
@@ -14,7 +14,7 @@
 
     {
 
-      "url": "heroku/py"
+      "url": "heroku/python"
 
     },
 
